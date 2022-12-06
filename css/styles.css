@@ -1,0 +1,194 @@
+#title {
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding: 0.5% 3% 0.5%;
+}
+.navbar-brand {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 12px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* hero background image */
+.bgimage {
+    height: 450px;
+    background: url('../images/nele.png');
+    background-size:cover;
+    position:relative;
+}
+
+.arttitle {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1rem;
+    padding: 7px 7px 0px;
+    color: black;
+    transform: scale(1, .9);
+}
+
+.artdesc {
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    padding: 12px 13px 30px;
+    margin-top: -10px;
+    line-height: 12px;
+    color: black;
+    transform: scale(1, .85);
+}
+
+.homep {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 30px 180px 80px;
+    font-size: .9rem;
+    text-align: left;
+}
+
+h2 {
+    color: #DFE3EE;
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+    font-size: 1.5;
+}
+
+
+p {
+    color: #8B9DC3;
+}
+
+
+
+.title-image{
+   width: 60%;
+   transform: rotate(20deg);
+   position: absolute;
+}
+
+
+
+.icon {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #9f5c95;
+}
+
+
+#testimonials {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.carousel-control-next {
+    filter: invert(100%);
+}
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+#carouseltitle {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    padding: 0 0 0;
+}
+
+.testimonial-image {
+  width: 410px;
+  margin: 10px;
+}
+
+
+
+#cta {
+    background-color: #8B9DC3;
+    color: #DFE3EE;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social {
+    margin: 20px 10px;
+}
+.footer-text {
+    color: rgb(173, 173, 173);
+    font-family: 'Bodoni Moda', serif;
+    font-size: .7rem;
+}
+
+
+
+
+
+
+
+
+
+.container img {
+    width: 250px;
+    padding: 20px 10px 20px ;
+}
+
+.profilephoto {
+    width: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.profiletitle {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 100px 0px 20px;
+}
+
+.profiletext {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 70px 15% 70px;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.pdf {
+padding: 30px 200px 30px;
+}
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
